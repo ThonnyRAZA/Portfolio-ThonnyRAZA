@@ -1,0 +1,269 @@
+:root {
+  --font-family-sans-serif: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
+}
+
+#Accueil {
+  scroll-behavior: smooth;
+}
+
+li {
+  color: black !important;
+  text-decoration: none;
+  list-style: none;
+  line-height: 40px;
+  margin: 10px 30px 0 0;
+  font-size: 17px;
+}
+
+a:hover {
+  color: rgb(42, 144, 188) !important;
+  text-decoration: underline;
+}
+
+#logo {
+  display: block;
+  margin-right: 20%;
+  padding: 0 0 10px 0;
+}
+
+.nav-container {
+  box-shadow: 0 2px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  background-color: white !important;
+}
+
+.container_corps {
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(45deg, red, blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  color: white !important;
+}
+
+.titre_dwwm {
+  margin-bottom: 20px;
+}
+
+.titre_dwwm:hover {
+  text-decoration: underline;
+}
+
+.nomPrenom {
+  padding: 30px 30%;
+  margin-bottom: 30px;
+}
+.nomPrenom .prenom {
+  padding: 100px;
+}
+
+#CVDownload {
+  padding: 30px 45%;
+}
+
+#imgMoi {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.titreConcernant {
+  display: flex;
+  justify-content: center;
+}
+
+#fondP {
+  margin-top: 2.5%;
+}
+
+#textF {
+  position: absolute;
+  margin-top: 3.5%;
+  width: 30%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titre1 {
+  font-size: 5em;
+}
+
+#sous-titre1 {
+  font-size: 6.5em;
+}
+
+.zoneConcernant {
+  height: 600px;
+  margin-top: 1%;
+  display: flex;
+}
+
+.zoneTexte1 {
+  margin: 7%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.blockSpan {
+  display: flex;
+  gap: 5%;
+  width: 110%;
+}
+
+.blockSpan1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.blockSpan2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#imgMoiConcernant {
+  margin: 7% 0 0 7%;
+  width: 33%;
+  height: 70%;
+}
+
+.titreEE {
+  display: flex;
+  justify-content: center;
+}
+
+#fondEE {
+  margin-top: 1%;
+}
+
+#textFEE {
+  position: absolute;
+  margin-top: 2.5%;
+  width: 75%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titre2 {
+  font-size: 5em;
+}
+
+#sous-titre2 {
+  font-size: 6.5em;
+}
+
+#zoneTexte2 {
+  display: flex;
+}
+
+.titreSkills {
+  display: flex;
+  justify-content: center;
+}
+
+#fondSkills {
+  margin-top: 1%;
+}
+
+#textSkills {
+  position: absolute;
+  margin-top: 2.5%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titre3 {
+  font-size: 5em;
+}
+
+#sous-titre3 {
+  font-size: 6.5em;
+}
+
+#skills #progressbarHTML {
+  width: 80%;
+}
+#skills #progressbarCSS {
+  width: 70%;
+}
+#skills #progressbarPHP {
+  width: 50%;
+}
+#skills #progressbarJS {
+  width: 30%;
+}
+#skills #progressbarBT {
+  width: 75%;
+}
+#skills #progressbarR {
+  width: 50%;
+}
+
+.titreContact {
+  display: flex;
+  justify-content: center;
+}
+
+#fondContact {
+  margin-top: 1%;
+}
+
+#textContact {
+  position: absolute;
+  margin-top: 2.5%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titre4 {
+  font-size: 5em;
+}
+
+#sous-titre4 {
+  font-size: 6.5em;
+}
+
+#inputForme {
+  font-size: 170%;
+  border-radius: 10px 100px/120px;
+  border-color: blue;
+}
+
+#ipnutCommentaire {
+  height: 10%;
+}/*# sourceMappingURL=styles.css.map */
