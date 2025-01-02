@@ -40,6 +40,10 @@ a:hover {
   padding: 0 0 10px 0;
 }
 
+#elementNavigation {
+  padding-left: 12%;
+}
+
 .nav-container {
   box-shadow: 0 2px;
   display: flex;
@@ -110,11 +114,11 @@ a:hover {
   align-items: center;
 }
 
-#titre1 {
+#titreConcernant {
   font-size: 5em;
 }
 
-#sous-titre1 {
+#sous-titreConcernant {
   font-size: 6.5em;
 }
 
@@ -163,6 +167,7 @@ a:hover {
 
 #fondEE {
   margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 #textFEE {
@@ -175,11 +180,11 @@ a:hover {
   align-items: center;
 }
 
-#titre2 {
+#titreEducationExperience {
   font-size: 5em;
 }
 
-#sous-titre2 {
+#sous-titreEducationExperience {
   font-size: 6.5em;
 }
 
@@ -190,6 +195,7 @@ a:hover {
 .titreSkills {
   display: flex;
   justify-content: center;
+  margin-bottom: 7%;
 }
 
 #fondSkills {
@@ -205,11 +211,11 @@ a:hover {
   align-items: center;
 }
 
-#titre3 {
+#titreSkills {
   font-size: 5em;
 }
 
-#sous-titre3 {
+#sous-titreSkills {
   font-size: 6.5em;
 }
 
@@ -223,18 +229,19 @@ a:hover {
   width: 50%;
 }
 #skills #progressbarJS {
-  width: 30%;
+  width: 40%;
 }
 #skills #progressbarBT {
-  width: 75%;
+  width: 40%;
 }
 #skills #progressbarR {
-  width: 50%;
+  width: 10%;
 }
 
 .titreContact {
   display: flex;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 #fondContact {
@@ -250,11 +257,11 @@ a:hover {
   align-items: center;
 }
 
-#titre4 {
+#titreContact {
   font-size: 5em;
 }
 
-#sous-titre4 {
+#sous-titreContact {
   font-size: 6.5em;
 }
 
