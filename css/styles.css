@@ -40,6 +40,10 @@ a:hover {
   padding: 0 0 10px 0;
 }
 
+.containerPhone {
+  display: none;
+}
+
 #elementNavigation {
   padding-left: 12%;
 }
@@ -235,7 +239,7 @@ a:hover {
   width: 40%;
 }
 #skills #progressbarR {
-  width: 10%;
+  width: 0%;
 }
 
 .titreContact {
@@ -274,3 +278,40 @@ a:hover {
 #ipnutCommentaire {
   height: 10%;
 }/*# sourceMappingURL=styles.css.map */
+
+@media only screen and (max-width: 1145px) {
+  #navPrincipale {
+    margin-right: 0%;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  #titreEducationExperience {
+    justify-content: center;
+    font-size: 3em;
+    margin-bottom: 5%;
+  }
+  
+  #sous-titreEducationExperience {
+    justify-content: center;
+    font-size: 3.5em;
+  }
+
+  .titreEE {
+    padding-top: 10%;
+  }
+  
+  #zoneTexte2 {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .nomPrenom {
+    padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 1990px) {
+  
+}
